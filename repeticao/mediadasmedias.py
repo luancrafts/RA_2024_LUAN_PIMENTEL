@@ -16,7 +16,7 @@ while(con < 50):
 
     #Calcula a média anual das notas
     MA = (n1 + n2 + n3 +n4)/4
-    acumulador = MA
+    acumulador = acumulador + MA #acumulador+=MA
     #Imprime a média
     print("Média anual: ", MA)
 
@@ -26,5 +26,6 @@ while(con < 50):
     else:
         print("Aluno Reprovado")
         con+= 1 #Incrementa
+        
 acumulador = acumulador/50
 print("A média das médias é:", acumulador)

@@ -1,0 +1,9 @@
+inicio = int(input("Digite o primeiro numero: "))
+fim = int(input("Digite o segundo numero: "))
+
+if inicio<fim:
+    for i in range (inicio+1, fim, 1):
+        print(i)
+elif inicio>fim:
+    for i in range (fim+1, inicio, 1):
+        print(i)

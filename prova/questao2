@@ -1,0 +1,3 @@
+As estruturas condicionais podem ser usadas para criar condições.
+Se uma condição for atendida, um determinado bloco de código é executado, do contrário (else),
+o programa executa outro bloco de código.

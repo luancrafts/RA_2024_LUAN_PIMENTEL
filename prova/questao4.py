@@ -1,0 +1,1 @@
+#Encerra a estrutura condicional ou executa um bloco de código se a condição for falsa.

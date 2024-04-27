@@ -11,8 +11,9 @@ while opcao != 0:
 
     elif opcao == 2:
         numero = int(input("Digite o numero que deseha remover: "))
-        vetor.remove(numero)
-        vetor.sort()
+        if numero in vetor:
+            vetor.remove(numero)
+            vetor.sort()
 
 for i in vetor:
     print(i)

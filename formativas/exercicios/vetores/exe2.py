@@ -2,7 +2,7 @@ vetor = []
 opcao = 1
 
 while opcao != 0:
-    opcao = int(input("Digite 0 para sair. 1 Para adicionar numero e 2 para remover: "))
+    opcao = int(input("\n MENU \n 0 para sair \n 1 Para adicionar numero \n 2 para remover \n Digite a opção: "))
 
     if opcao == 1:
         numero = int(input("Digite o numero desejado: "))

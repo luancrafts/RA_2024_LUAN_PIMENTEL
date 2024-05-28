@@ -1,0 +1,41 @@
+
+    *
+    {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    
+    body{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/758/693/small_2x/zodiac-signs-pattern-astrological-seamless-background-for-textile-wallpaper-vector.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+
+    div {
+        padding: 25px 20px 25px 20px;
+      background-color: white;
+    }
+    
+    label{
+        font-size: 24px;
+    }
+
+    h1{
+        color: white;
+    }
+    #principal{
+        background-color: white;
+    }
+
+    .flex {
+        display: flex;
+    }
+    
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    
